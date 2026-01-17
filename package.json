@@ -1,0 +1,12 @@
+{
+  "name": "biome-stack-overflow-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction case for Biome noMisusedPromises stack overflow",
+  "private": true,
+  "scripts": {
+    "reproduce": "biome lint runtimeTransform.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.11"
+  }
+}
