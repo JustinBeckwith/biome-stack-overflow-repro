@@ -13,19 +13,15 @@ Minimal reproduction case for a stack overflow crash in Biome 2.3.11 when lintin
 ## Reproduction Steps
 
 ```bash
-# 1. Clone or download this repository
+# 1. Clone this repository
+git clone https://github.com/JustinBeckwith/biome-stack-overflow-repro.git
 cd biome-stack-overflow-repro
 
-# 2. Initialize git repository (REQUIRED - bug doesn't occur without git)
-git init
-
-# 3. Install dependencies
+# 2. Install dependencies
 npm install
 
-# 4. Reproduce the crash
+# 3. Reproduce the crash
 npm run reproduce
-# OR
-npx @biomejs/biome lint runtimeTransform.ts
 ```
 
 ## Expected Behavior
